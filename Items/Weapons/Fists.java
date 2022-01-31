@@ -1,0 +1,19 @@
+/**
+ * Created by Delarosa on January 13, 2022;
+ */
+package Items.Weapons;
+
+public class Fists extends Weapon {
+    /**
+     * FISTS CONTRUCTOR...
+     * @param rarity Worth of the fists...
+     * @param durability Health of the fists...
+     * @param level Level of the fists...
+     * @param damageMin Minimum damage of the fists...
+     * @param damageMax Maximum damage of the fists...
+     */
+    public Fists(ItemRarity rarity, int durability, int level, int damageMin, int damageMax) {
+        super(rarity, durability, level, damageMin, damageMax);
+        this.type = WeaponType.DEFAULT;
+    }
+}
